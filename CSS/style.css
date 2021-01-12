@@ -800,6 +800,14 @@ body {
   color: #212121;
 }
 
+.modal-form-list-item:not(:last-child) {
+  padding-bottom: 10px;
+}
+
+.modal-form-list-item:last-child {
+  padding-top: 10px;
+}
+
 .modal-form-input-wrapper {
   position: relative;
   display: block;
@@ -824,6 +832,14 @@ body {
   fill: var(--acent-color);
 }
 
+.modal-form-field {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.167;
+  color: var(--primary-text-color);
+}
+
 .modal-form-input-icon {
   position: absolute;
 
@@ -846,8 +862,47 @@ body {
   border-radius: 4px;
 }
 
+.modal-form-message:focus {
+  outline: none;
+  border-color: var(--acent-color);
+}
+
+.modal-form-message::placeholder {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.167;
+  letter-spacing: 0.01em;
+  color: rgba(117, 117, 117, 0.5);
+}
+
+.modal-form-policy-text {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
+
+.modal-form-policy-text::before {
+  display: inline-block;
+  width: 16px;
+  height: 15px;
+  border: 1px solid black;
+  content: '';
+}
+
 .modal-form-policy-link {
   text-decoration: underline;
+}
+
+.modal .button {
+  margin-top: 30px;
+
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
 }
 
 .is-hidden {
