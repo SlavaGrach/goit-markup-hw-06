@@ -474,14 +474,18 @@
             <form action="#">
               <label for="">
                 <span class="footer-subscription">Подпишитесь на рассылку</span>
-                <input
+                <div>
+                  <input
                   type="email"
                   name="email"
                   id=""
                   class="footer-input-email"
+                  placeholder="E-mail"
                 />
               </label>
               <button type="submit" class="button">Подписаться</button>
+                </div>
+                
             </form>
           </li>
         </ul>
@@ -553,12 +557,12 @@
                 id="user-policy"
                 name="user_policy"
                 value="accept-policy"
-                class="modal-form-policy"
+                class="modal-form-policy visually-hidden"
               />
               <label for="user-policy" class="modal-form-policy-text"
-                >Соглашаюсь с рассылкой и принимаю
-                <a href="#" class="modal-form-policy-link"
-                  >Условия договора</a
+                >Соглашаюсь с рассылкой и принимаю &nbsp
+                <a href="#" class="modal-form-policy-link">
+                  Условия договора</a
                 ></label
               >
             </li>
