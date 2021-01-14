@@ -471,21 +471,22 @@
             </ul>
           </li>
           <li class="footer-list-item">
-            <form action="#">
-              <label for="">
-                <span class="footer-subscription">Подпишитесь на рассылку</span>
-                <div>
-                  <input
-                  type="email"
-                  name="email"
-                  id=""
-                  class="footer-input-email"
-                  placeholder="E-mail"
-                />
-              </label>
-              <button type="submit" class="button">Подписаться</button>
-                </div>
-                
+            <span class="footer-subscription">Подпишитесь на рассылку</span>
+            <form action="#" class="footer-email-form">
+              <input
+                type="email"
+                name="email"
+                id="e-mail"
+                class="footer-input-email"
+                placeholder="E-mail"
+              />
+
+              <button type="submit" class="button">
+                Подписаться
+                <svg class="footer-icon-send-svg" width="24" height="24">
+                  <use>href="./images/sprite.svg#icon-send"</use>
+                </svg>
+              </button>
             </form>
           </li>
         </ul>
