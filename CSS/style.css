@@ -812,6 +812,8 @@ body {
   background-color: var(--white-color);
 
   padding: 40px;
+
+  transition: 250ms var(--cube);
 }
 
 .close-btn {
@@ -863,6 +865,7 @@ body {
   box-sizing: border-box;
   border-radius: 4px;
   padding-left: 42px;
+  transition: border-color 250ms var(--cube);
 }
 
 .modal-form-input:focus {
@@ -891,6 +894,8 @@ body {
 
   width: 18px;
   height: 18px;
+
+  transition: fill 250ms var(--cube);
 }
 
 .modal-form-message {
@@ -902,6 +907,8 @@ body {
   border: 1px solid rgba(33, 33, 33, 0.2);
   box-sizing: border-box;
   border-radius: 4px;
+
+  transition: border-color 250ms var(--cube);
 }
 
 .modal-form-message:focus {
