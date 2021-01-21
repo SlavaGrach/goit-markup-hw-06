@@ -947,7 +947,7 @@ body {
   content: '';
   margin-right: 8px;
   padding: auto;
-  background-image: url('/images/icon-check-empty.svg');
+  background-image: url('../images/icon-check-empty.svg');
 
   cursor: pointer;
 }
