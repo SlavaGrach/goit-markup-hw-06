@@ -839,13 +839,13 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
 
-  padding-bottom: 12px;
+  padding-bottom: 8px;
 
   color: #212121;
 }
 
 .modal-form-list-item:not(:last-child) {
-  padding-bottom: 10px;
+  padding-bottom: 6px;
 }
 
 .modal-form-list-item:last-child {
